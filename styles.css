@@ -1,0 +1,319 @@
+@font-face{
+    font-family: BrandonGrotesque-Light;
+    src:url(../fonts/BrandonGrotesque-Light.ttf);
+}
+@font-face{
+    font-family: BrandonGrotesque-Regular;
+    src:url(../fonts/BrandonGrotesque-Regular.ttf);
+}
+@font-face{
+    font-family: BrandonGrotesque-Medium;
+    src:url(../fonts/BrandonGrotesque-Medium.ttf);
+}
+@font-face{
+    font-family: BrandonGrotesque-Bold;
+    src:url(../fonts/BrandonGrotesque-Bold.ttf);
+}
+.main_wrapper{
+    width: 1350px;
+}
+head{
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: BrandonGrotesque-Regular;
+    color: white;
+}
+header{
+    background-image: url(images/banner.png);    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 620px;
+}
+.shadow{
+    background-color: rgba(0,0,0,.4);
+    height: 620px;
+    width: 100%;
+}
+.wrapper{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 80%;
+    padding: 45px 0;
+}
+
+.logo{
+    width: 10%;
+    float: left;
+    margin-top: 13px;
+}
+.logo img{
+    width: 100%;
+}
+
+.menu{
+    width: 73%;
+    float: right;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;    
+}
+.menu ul li a{
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 26px;
+    padding: 5px 0;
+    transition: .5s;
+    letter-spacing: 0.5px;
+
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+.menu ul li a:hover{
+    color: #718cff;
+}
+.wrapper2{
+    overflow: hidden;
+    width: 64%;
+    margin: 0 auto;
+}
+.b_content h2{
+    font-family: BrandonGrotesque-Light;
+    font-weight: 400;
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+    margin: 75px 0 70px 96px;
+    letter-spacing: 0.5px;
+}
+.b_content h1{
+    font-weight: 800;
+    font-size: 64px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 33px 0 0 31px;
+    letter-spacing: 0.5px;
+}
+.load{
+    text-align: center;
+    padding: 100px 0;
+
+}
+.load button{
+    font-family: BrandonGrotesque-Regular;
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    width: 165px;
+    height: 60px;
+    background-color: transparent;
+}
+.load button:hover{
+    background-color: #3562ae;
+    font-size: 26px;
+    border: none;
+}
+.blog{
+    padding:60px 0;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.single, .single1{
+    float: left;
+    padding: 20px 0 20px 0;
+    }
+.single1{
+    background-color: #f7f7f7;
+}
+.single img{
+    width: 26%;
+    float: right;
+    padding-top: 20px;
+}
+.single .content{
+    width: 62%;
+    float: left;
+}
+.content h1{
+    font-family: Brandon_reg;
+    font-weight: 400;
+    font-size: 52px;
+    color: black;
+    display: inline-block;
+    padding-right: 5px;
+}
+.content h2{
+    font-family: Brandon_reg;
+    font-weight: 700;
+    font-size: 52px;
+    color: black;
+    display: inline-block;
+}
+.content p{
+    font-family: Brandon_reg;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    padding: 0;
+    letter-spacing: 0.5px;
+    margin-top: -12px;
+    line-height: 27px;
+}
+.single1 img{
+    float: left;
+     width: 28%;
+     padding-top: 35px;
+}
+.single1 .content{
+    width: 62%;
+    float: right;
+
+}
+.service{
+    padding:60px 0;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.single3{
+    float: left;
+    width: 45%;
+    }
+    .single3:hover{
+    border-radius: 1px;
+  box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);  
+}
+.single3 img{
+    float: left;
+     width: 13%;
+     padding-left: 2px;
+     margin-top: 31px;
+}
+.single3 .text{
+    width: 80%;
+    float: right;
+    padding-left: 20px;
+
+}
+.single3:nth-child(even){
+        margin-left: 9%;
+    }
+    .text h3{
+    font-family: Brandon_reg;
+    font-weight: 500;
+    font-size: 34px;
+    color: black;
+    display: inline-block;
+    padding-right: 5px;
+}
+.text p{
+    font-family: Brandon_reg;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    padding: 0;
+    letter-spacing: 0.5px;
+    line-height: 27px;
+    margin-top: -30px;
+}
+.icon, .icon1{
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    float: left;
+}
+.icon img, .icon1 img{
+    padding-right: 0px;
+    padding-left: 20px;
+    display: inline-block;
+}
+.icon:nth-child(even){
+        margin-left: 25%;
+    }
+    .icon1:nth-child(even){
+        margin-left: 28%;
+    }
+.team{
+    padding:60px 0;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 1px solid red;
+    background-color: black;
+}
+.title{
+    color: black;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: none;
+    margin-top:-46px;
+    padding-bottom: 45px;
+}
+.title h1{
+    font-family: Brandon_reg;
+    font-weight: 400;
+    font-size: 52px;
+    color: white;
+    display: inline-block;
+    padding-right: 5px;
+    margin-top:-11px;
+
+}
+.title h2{
+    font-family: Brandon_reg;
+    font-weight: 700;
+    font-size: 52px;
+    color: white;
+    display: inline-block; 
+    margin-top:-11px;   
+}
+.title h3{
+    font-family: Brandon_reg;
+    font-size: 20px;
+    color: white;
+    margin-top: -20px; 
+    text-align: center;   
+}
+.single4{
+    float: left;
+    width: 30%;
+    overflow: hidden;
+    }
+.dot {
+  height: 270px;
+  width: 270px;
+  background-color: black;
+  border-radius: 50%;
+  border: 10px solid white;
+  display: inline-block;
+}
+.single4 h3{
+    font-family: Brandon_reg;
+    font-weight: 500;
+    font-size: 22px;
+    color: white;
+    padding-right: 5px;
+    text-align: center;
+    padding-right: 30px;
+    }
+    .single4 h4{
+    font-family: Brandon_reg;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding-right: 37px;
+    }
+    .single4:nth-child(even){
+        margin-left: 5%;
+    }
