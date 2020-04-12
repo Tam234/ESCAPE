@@ -133,7 +133,7 @@ header{
 .single, .single1{
     float: left;
     padding: 20px 0 20px 0;
-    }
+}
 .single1{
     background-color: #f7f7f7;
 }
@@ -173,8 +173,8 @@ header{
 }
 .single1 img{
     float: left;
-     width: 28%;
-     padding-top: 35px;
+    width: 28%;
+    padding-top: 35px;
 }
 .single1 .content{
     width: 62%;
@@ -189,16 +189,16 @@ header{
 .single3{
     float: left;
     width: 45%;
-    }
-    .single3:hover{
+}
+.single3:hover{
     border-radius: 1px;
-  box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);  
+    box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);  
 }
 .single3 img{
     float: left;
-     width: 13%;
-     padding-left: 2px;
-     margin-top: 31px;
+    width: 13%;
+    padding-left: 2px;
+    margin-top: 31px;
 }
 .single3 .text{
     width: 80%;
@@ -207,9 +207,9 @@ header{
 
 }
 .single3:nth-child(even){
-        margin-left: 9%;
-    }
-    .text h3{
+    margin-left: 9%;
+}
+.text h3{
     font-family: Brandon_reg;
     font-weight: 500;
     font-size: 34px;
@@ -239,11 +239,11 @@ header{
     display: inline-block;
 }
 .icon:nth-child(even){
-        margin-left: 25%;
-    }
-    .icon1:nth-child(even){
-        margin-left: 28%;
-    }
+    margin-left: 25%;
+}
+.icon1:nth-child(even){
+    margin-left: 28%;
+}
 .team{
     padding:60px 0;
     overflow: hidden;
@@ -288,7 +288,7 @@ header{
     float: left;
     width: 30%;
     overflow: hidden;
-    }
+}
 .dot {
   height: 270px;
   width: 270px;
@@ -305,15 +305,15 @@ header{
     padding-right: 5px;
     text-align: center;
     padding-right: 30px;
-    }
-    .single4 h4{
+}
+.single4 h4{
     font-family: Brandon_reg;
     font-weight: 500;
     font-size: 18px;
     color: white;
     text-align: center;
     padding-right: 37px;
-    }
-    .single4:nth-child(even){
-        margin-left: 5%;
-    }
+}
+.single4:nth-child(even){
+    margin-left: 5%;
+}
