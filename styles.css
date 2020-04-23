@@ -18,9 +18,7 @@
     src:url(fonts/BrandonGrotesque-Bold.ttf);
     font-weight: 700;
 }
-.main_wrapper{
-    
-}
+
 head{
 
 }
@@ -130,7 +128,6 @@ header{
 }
 .load button:hover{
     background-color: #00000061;
-    font-size: 22px;
     border: none;
 }
 .blog{
@@ -170,7 +167,6 @@ header{
 .content p{
     font-size: 18px;
     color: black;
-    padding: 0;
     letter-spacing: 0.5px;
     margin-top: -12px;
     line-height: 27px;
@@ -193,10 +189,11 @@ header{
     float: left;
     width: 45%;
 }
+/*
 .single3:hover{
     border-radius: 1px;
     box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);  
-}
+}*/
 .single3 img{
     float: left;
     width: 13%;
@@ -212,8 +209,13 @@ header{
 .single3:nth-child(even){
     margin-left: 9%;
 }
+.wrapper3{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
 .text h3{
-    font-family: Brandon_reg;
+   font-family: BrandonGrotesque-Medium;
     font-weight: 500;
     font-size: 34px;
     color: black;
@@ -245,13 +247,13 @@ header{
     margin-left: 25%;
 }
 .icon1:nth-child(even){
-    margin-left: 28%;
+    margin-left: 12%;
 }
 .team{
     padding:60px 0;
     overflow: hidden;
     margin: 0 auto;
-    border: 1px solid red;
+    border: 1px solid black;
     background-color: black;
 }
 .title{
@@ -263,7 +265,7 @@ header{
     padding-bottom: 45px;
 }
 .title h1{
-    font-family: Brandon_reg;
+    font-family: BrandonGrotesque-Regular;
     font-weight: 400;
     font-size: 52px;
     color: white;
@@ -273,7 +275,7 @@ header{
 
 }
 .title h2{
-    font-family: Brandon_reg;
+   font-family: BrandonGrotesque-Bold;
     font-weight: 700;
     font-size: 52px;
     color: white;
@@ -289,9 +291,11 @@ header{
 }
 .single4{
     float: left;
-    width: 30%;
+    width: 25%;
+    margin-left:74px; 
     overflow: hidden;
 }
+/*
 .dot {
   height: 270px;
   width: 270px;
@@ -299,6 +303,16 @@ header{
   border-radius: 50%;
   border: 10px solid white;
   display: inline-block;
+  background-position: center;
+}*/
+.dot{
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    border-radius: 50%;
+}
+.dot img{
+    width: 100%;
 }
 .single4 h3{
     font-family: Brandon_reg;
@@ -318,5 +332,119 @@ header{
     padding-right: 37px;
 }
 .single4:nth-child(even){
-    margin-left: 5%;
+    
+}
+.contact{
+    background-color: #7690c5;
+}
+.contact_section{
+    overflow: hidden;
+}
+.location{
+    width: 45%;
+    float: left;
+    padding: 82px 0;
+}
+.location h2 {
+    font-family: BrandonGrotesque-Light;
+    font-weight: 300;
+    font-size: 60px;
+    color: white;
+    margin-bottom: 13px;
+}
+#hello{
+    font-family: BrandonGrotesque-Bold;
+    font-weight: 700;
+    color: white;
+}
+.address-p p {
+    color: white;
+    margin-bottom: 16px;
+}
+.form1{
+    float: left;
+}
+.form1 ul{
+
+}
+.form1 ul li{
+    list-style-type: none;
+}
+.form1 ul li span {
+    display: inline-block;
+}
+.form1 ul li span img {
+    margin-top: 15px;
+}
+.form1 ul li p {
+    display: inline-block;
+    margin-left: 12px;
+}
+
+.form2{
+    float: right;
+}
+.form2 ul{
+
+}
+.form2 ul li{
+    list-style-type: none;
+}
+.form2 ul li span {
+    display: inline-block;
+}
+.form2 ul li span img{
+    margin-top: 15px;
+}
+.form2 ul li p{
+    display: inline-block;
+    margin-left: 12px;
+    text-align: right;
+}
+
+.form3 {
+    float: right;
+    width: 45%;
+    padding: 107px 0;
+}
+.text {
+    width: 100%;
+    padding: 5px;
+}
+.email{
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+}
+#textarea{
+    width: 100%;
+}
+.submitbtn {
+    margin-top: 20px;
+}
+.submitbtn  button {
+    color: white;
+    background: transparent;
+    width: 100%;
+    padding: 21px 0;
+    border: none;
+    border: 1px solid white;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.submitbtn button:hover{
+    background-color: #00000061;
+    color: black;
+    transition-delay:  0.1s;
+}
+
+footer {
+    background-color: #7690c5;
+    border-top: 1px solid #ffffff52;
+}
+.footer_text {
+    text-align: center;
+    color: white;
+    padding: 40px 0;
 }
