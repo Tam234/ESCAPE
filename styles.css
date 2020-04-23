@@ -149,20 +149,16 @@ header{
     width: 62%;
     float: left;
 }
-.content h1{
+.content h2{
     font-family: BrandonGrotesque-Light;
     font-weight: 300;
     font-size: 52px;
     color: black;
     display: inline-block;
-    padding-right: 5px;
 }
-.content h2{
+#design{
     font-family: BrandonGrotesque-Bold;
     font-weight: 700;
-    font-size: 52px;
-    color: black;
-    display: inline-block;
 }
 .content p{
     font-size: 18px;
