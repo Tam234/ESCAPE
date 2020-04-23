@@ -156,7 +156,7 @@ header{
     color: black;
     display: inline-block;
 }
-#design{
+.content #design{
     font-family: BrandonGrotesque-Bold;
     font-weight: 700;
 }
